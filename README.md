@@ -4,6 +4,8 @@ A local-first expense ledger for the way people actually write money down: `450 
 
 SpendSense is a cross-platform Expo app — phone first, browser preview included — built as a portfolio piece by [Akhilendra Singh](https://github.com/AkhilSingh2). It runs in Expo Go and on the web with **zero API keys**. The on-device parser is a mock model with a rule-based fallback. Charts, budgets, and the ledger all work offline.
 
+**Live demo:** [akhilsingh2.github.io/spendsense-mobile](https://akhilsingh2.github.io/spendsense-mobile/). This is the Expo web build in demo mode: pick the sample month during onboarding, and everything you enter stays in this browser.
+
 ![Home](docs/screenshots/home.png)
 
 ## What you can do

@@ -18,6 +18,7 @@ import {
   Outfit_700Bold,
 } from '@expo-google-fonts/outfit';
 
+import { DemoNote } from '@/components/DemoNote';
 import { LockScreen } from '@/components/LockScreen';
 import { ToastProvider } from '@/components/primitives';
 import { LedgerProvider, useLedger } from '@/data/store';
@@ -48,6 +49,7 @@ export default function RootLayout() {
       <LedgerProvider>
         <Shell fontsReady={Boolean(loaded) && !error} />
       </LedgerProvider>
+      <DemoNote />
     </GestureHandlerRootView>
   );
 }
